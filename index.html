@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1>Sobre você</h1>
+    <hr>
+
+    <label for="formulario">
+        Formulário
+        <form name="formaulario">
+            <label for="nome">
+                Seu nome:
+                <input type="text" id="nome" placeholder="Digite seu nome">
+            </label><br><br>
+
+            <label for="idade">
+                Quantos anos você tem ?
+                <input type="text" id="idade" placeholder="Digite sua idade">
+            </label><br><br>
+
+            <label for="linguagem">
+                Qual linguagem de programação você está estudando?
+                <input type="text" id="linguagem" placeholder="Digite aqui sua linguagem de programação">
+            </label><br><br>
+
+            <input type="button" onclick="processarDados()" value="Enviar formulário">
+        </form>
+    </label>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
